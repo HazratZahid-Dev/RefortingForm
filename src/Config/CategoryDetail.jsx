@@ -1,10 +1,33 @@
 import img from '../images/__TEMP__SVG__.png'
 import access from '../images/access.png'
 import bulb from '../images/bulb.png'
+import loginhomr from '../images/loginhomr.png'
+import entire from '../images/entire.png'
+
+
+
+
+
 
 
 
 const CategoriesData=[
+    {
+        cate:'electricity',
+        icons:loginhomr,
+        text:'Entire Property'
+    },
+    {
+        cate:'electricity',
+        icons:entire,
+        text:'Part Of Property'
+    },
+    
+    {
+        cate:'electricity',
+        icons:entire,
+        text:'Other'
+    },
     {
         cate:'waterLeak',
         icons:img,
@@ -17,6 +40,21 @@ const CategoriesData=[
     },
     {
         cate:'waterLeak',
+        icons:bulb,
+        text:"Gurshing"
+    },
+    {
+        cate:'heat',
+        icons:img,
+        text:"Dripping"
+    },
+    {
+        cate:'heat',
+        icons:access,
+        text:"Sudden Intermittent Bursts"
+    },
+    {
+        cate:'heat',
         icons:bulb,
         text:"Gurshing"
     },

@@ -1,16 +1,25 @@
 import React from 'react'
 import LoginData from '../Config/LoginData'
 import { useNavigate } from 'react-router-dom'
+import { useState } from 'react'
 
 const Categories = () => {
+  const [show,setshow]=useState(false)
   const navigate=useNavigate();
   const handleBack2=()=>{
     navigate('/detail')
     console.log('cliiiiiiiiick')
   }
+
+const   handleCat=()=>{
+  setshow(!show)
+  console.log('hiiiiiiiiiiiiiiiiiiiiiiiiiiii')
+}
   return (
     <div>
           <div className="grid grid-cols-1 sm:grid-cols-4 lg:grid-cols-8 gap-4">
+                     {
+                      show && <>
                       {LoginData.map((item, index) => (
                         <div
                           key={index}
@@ -21,10 +30,11 @@ const Categories = () => {
                           }`}
                           onClick={() => setActiveIndex(index)}
                         >
-                          <div className="flex flex-col justify-center items-center">
+                          <div  className="flex flex-col justify-center items-center">
                             <div className="w-14 flex items-center justify-center h-14">
                               <img
                                 src={item.img}
+                                onClick={handleCat}
                                 alt="item"
                                 className="object-fill"
                               />
@@ -39,6 +49,8 @@ const Categories = () => {
                           </div>
                         </div>
                       ))}
+                      </>
+                     }
                     </div>
 
                     <div className="flex justify-around mt-4">

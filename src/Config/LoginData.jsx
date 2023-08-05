@@ -33,59 +33,75 @@ import noHeating from '../images/noHeating.png'
 
 const LoginData=[
     {
+        cate:'electricity',
         img:powerplug,
         text:'No Electricity'
     },
     {
+        cate:"heat",
         img:noHeating,
         text:'No Heating'
     },
     {
+        cate:'waterLeak',
         img:waterLeak,
         text:'Water Leak'
     },
     {
+        cate:'kitchen',
         img:kit,
         text:'Kitchen'
     },
     {
+        
+        cate:'whiteGoods',
         img:whiteGood,
         text:'White Goods'
     },
 
     {
+        cate:'garag',
         img:car,
         text:'Garag'
     },{
+        cate:'bathroom',
         img:bath,
         text:'Bathroom'
     },
 
     {
+        cate:'alarm',
         img:bulb,
         text:'Alarm'
     },
     {
+        cate:'lostKey',
         img:keys,
         text:'Lost Keys'
     },
     {
+        cate:'garden',
         img:tree,
         text:'Garden/ Conservatory'
     },
     {
+        cate:'pest',
         img:jola,
         text:'Pest Control'
     },{
+        // cate:'wall',
         img:Calender,
         text:'Smell Gas'
     },{
+        cate:'wall',
         img:maiz,
         text:'Wall Cielling Floor'
     },{
+        cate:'hall',
         img:hallWays,
         text:'Entrance HallWay Stairs'
     },{
+        cate:'window',
         img:doors,
         text:'Windows'
     },{
