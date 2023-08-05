@@ -79,6 +79,10 @@ const Categories = () => {
     navigate('/detail');
     console.log('cliiiiiiiiick');
   };
+  const toUpload = () => {
+    navigate('/upload');
+    console.log('cliiiiiiiiick');
+  };
 
   const handleCat = (category) => {
     setShow(false);
@@ -92,14 +96,14 @@ const Categories = () => {
     : CategoriesData.filter((item) => item.cate === activeCategory);
 
   return (
-    <div className='border rounded-md shadow-sm w-[80%] mt-4 p-4 m-auto'>
+    <div className='border rounded-xl shadow-sm w-[90%] mt-4 p-4 m-auto'>
       <div className="grid grid-cols-1 sm:grid-cols-4 lg:grid-cols-8 py-4 gap-4">
         {show && (
           <>
             {LoginData.map((item, index) => (
               <div
                 key={index}
-                className={`border w-28 h-28 flex py-2 items-center justify-center shadow-sm rounded-md ${
+                className={`border w-32 h-32 flex py-2 items-center justify-center shadow-sm rounded-xl ${
                   activeCategory === item.cate
                     ? 'bg-green-200 border-2 border-green-600'
                     : 'hover:bg-green-200 hover:border-2 hover:border-green-600'
@@ -131,14 +135,14 @@ const Categories = () => {
             {CategoriesData.filter((item) => item.cate === activeCategory).map((item, index) => (
               <div
                 key={index}
-                className="border w-28 h-28 flex py-2 items-center justify-center shadow-sm rounded-md"
+                className="border w-36 h-36 bg-green-100 flex py-2 items-center justify-center shadow-sm rounded-xl"
               >
-                <div className="flex flex-col justify-center items-center">
-                  <div className="w-14 flex items-center justify-center h-14">
+                <div className="flex flex-col gap-y-3 justify-center items-center">
+                  <div className="w-16 flex items-center justify-center h-16 flex-wrap bg-white rounded-full">
                     <img
                       src={item.icons}
                       alt="item"
-                      className="object-fill"
+                      className="object-fill blue-filter m-auto w-10 h-10"
                     />
                   </div>
                   <p className="text-[#737475] text-center font-semibold font-[Roboto] text-sm">
@@ -161,7 +165,7 @@ const Categories = () => {
           Back
         </button>
         <button
-          onClick={() => setShow(true)} // Reset the show state to show the original data
+          onClick={toUpload} 
           type="button"
           className="bg-[#38BF67] !outline-none text-white font-semibold px-12 py-2 rounded-md"
         >

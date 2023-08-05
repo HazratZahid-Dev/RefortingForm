@@ -3,6 +3,102 @@ import access from '../images/access.png'
 import bulb from '../images/bulb.png'
 import loginhomr from '../images/loginhomr.png'
 import entire from '../images/entire.png'
+import dripping from '../images/dripping-1.png'
+import sudden from '../images/sudden burst.png'
+import ghushing from '../images/ghushing.png'
+import whiteGood from '../images/whiteGood.png'
+import cooker from '../images/cooker.png'
+import  Sink from '../images/Tap- Sink.png'
+import Drawers from '../images/Cabinets- Drawers.png'
+import Switch from '../images/Light & Switch-1.png'
+import others from '../images/others.png'
+import Group from '../images/Group 2285.png'
+import kitchencooker from '../images/kitchen-cooker.png'
+
+import fridge from '../images/bxs-fridge.png'
+import washing from '../images/washing-machine-1.png'
+import bxs from '../images/bxs-dryer.png'
+import microwave from '../images/microwave.png'
+import garag from '../images/switch-1.png'
+ import door from '../images/bxs-door-open-1.png'
+import toilet from '../images/bathroom/Union 22.png'
+import shower from '../images/bathroom/shower-1.png'
+import basin from '../images/bathroom/Group 2292.png'
+import tab from '../images/bathroom/Group 2293.png'
+import exaust from '../images/bathroom/cooling-1.png'
+import lightSwitch from '../images/bathroom/switch-1.png'
+import bxsdoor from '../images/bathroom/bxs-door-open-1.png'
+import mirror from '../images/bathroom/mirror-1.png'
+import alarm1 from '../images/Group 2311.png'
+ import alarm2 from '../images/Group 2310.png'
+import alarm3 from '../images/Group 1660.png'
+import lostkey1 from '../images/lost key/bxs-key-1.png'
+import lostkey2 from '../images/lost key/door-closed-fill-1.png'
+import lostkey3 from '../images/lost key/Group 2320.png'
+import lostkey4 from '../images/lost key/Group 2319.png'
+import lostkey5 from '../images/lost key/Group 2319.png'
+import garden1 from '../images/garden/Group 2326.png'
+import garden2 from '../images/garden/fence-1.png'
+import garden3 from '../images/garden/Group 2327.png'
+import garden13 from '../images/garden/Path 981.png'
+import garden4 from '../images/garden/Group 2328.png'
+import garden5 from '../images/garden/plumbing-1.png'
+import pest1 from '../images/pest control/__TEMP__SVG__-1.png'
+import pest2 from '../images/pest control/Path 982.png'
+
+import wall1 from '../images/wall-floor-cieling/Group 2332.png'
+import wall2 from '../images/wall-floor-cieling/Group 2333.png'
+import wall3 from '../images/wall-floor-cieling/Group 2334.png'
+import enterance1 from '../images/ENTERENCE-stairs/Group 2336.png'
+import enterance2 from '../images/ENTERENCE-stairs/Group 2335.png'
+import enterance3 from '../images/ENTERENCE-stairs/Group 2337.png'
+import window1 from '../images/window/window-1.png'
+import window2 from '../images/window/Group 2341.png'
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// import washing from '../images/washing-machine-1.png'
+// import washing from '../images/washing-machine-1.png'
+// import washing from '../images/washing-machine-1.png'
+// import washing from '../images/washing-machine-1.png'
+// import washing from '../images/washing-machine-1.png'
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+import ass from '../images/chair.png'
+
+
+
+
+
 
 
 
@@ -14,33 +110,34 @@ import entire from '../images/entire.png'
 const CategoriesData=[
     {
         cate:'electricity',
+        heading:"No Electricity",
+        effect:"Effected Part",
         icons:loginhomr,
-        text:'Entire Property'
+        text:'Entire Property',
+        img:ass,
+        main:"Main Switch Trapped"
     },
     {
         cate:'electricity',
         icons:entire,
-        text:'Part Of Property'
+        text:'Part Of Property',
+        img:ass,
+        main:"Main Switch Trapped"
     },
     
     {
-        cate:'electricity',
-        icons:entire,
-        text:'Other'
-    },
-    {
         cate:'waterLeak',
-        icons:img,
+        icons:dripping,
         text:"Dripping"
     },
     {
         cate:'waterLeak',
-        icons:access,
+        icons:sudden,
         text:"Sudden Intermittent Bursts"
     },
     {
         cate:'waterLeak',
-        icons:bulb,
+        icons:ghushing,
         text:"Gurshing"
     },
     {
@@ -60,305 +157,305 @@ const CategoriesData=[
     },
     {
         cate:'kitchen',
-        icons:img,
+        icons:whiteGood,
         text:"White Goods"
     },
     {
         cate:'kitchen',
-        icons:access,
+        icons:cooker,
         text:" Cooker Head"
     },
     {
         cate:'kitchen',
-        icons:bulb,
+        icons:Sink,
         text:"Tap sink"
     },
     ,
     {
         cate:'kitchen',
-        icons:access,
+        icons:Drawers,
         text:"XYZ"
     },
     {
         cate:'kitchen',
-        icons:bulb,
+        icons:Switch,
         text:"Light & Switch"
     },
     {
         cate:'kitchen',
-        icons:bulb,
+        icons:others,
         text:"Others"
     },
     {
         cate:'whiteGoods',
-        icons:img,
+        icons:Group,
         text:"Dripping"
     },
     {
         cate:'whiteGoods',
-        icons:access,
+        icons:kitchencooker,
         text:"Sudden Intermittent Bursts"
     },
     {
         cate:'whiteGoods',
-        icons:bulb,
-        text:"Gurshing"
+        icons:fridge,
+        text:"Fridge Freezer"
     },
     {
         cate:'whiteGoods',
-        icons:img,
+        icons:washing,
         text:"White Goods"
     },
     {
         cate:'whiteGoods',
-        icons:access,
+        icons:washing,
         text:" Cooker Head"
     },
     {
         cate:'whiteGoods',
-        icons:bulb,
+        icons:bxs,
         text:"Tap sink"
     },
     ,
     {
         cate:'whiteGoods',
-        icons:access,
-        text:"XYZ"
+        icons:microwave,
+        text:"Microwave"
     },
     {
         cate:'whiteGoods',
-        icons:bulb,
+        icons:others,
         text:"Light & Switch"
     },
     ,
     {
         cate:'garag',
-        icons:bulb,
-        text:"Tap sink"
+        icons:door,
+        text:"Garag Door"
     },
     ,
     {
         cate:'garag',
-        icons:access,
-        text:"XYZ"
+        icons:garag,
+        text:"Light Switch"
     },
     {
         cate:'garag',
-        icons:bulb,
-        text:"Light & Switch"
+        icons:others,
+        text:"Other"
     },
     ,
     {
         cate:'bathroom',
-        icons:bulb,
+        icons:toilet,
         text:"Gurshing"
     },
     {
         cate:'bathroom',
-        icons:img,
+        icons:shower,
         text:"White Goods"
     },
     {
         cate:'bathroom',
-        icons:access,
+        icons:basin,
         text:" Cooker Head"
     },
     {
         cate:'bathroom',
-        icons:bulb,
+        icons:tab,
         text:"Tap sink"
     },
     ,
     {
         cate:'bathroom',
-        icons:access,
+        icons:exaust,
         text:"XYZ"
     },
     {
         cate:'bathroom',
-        icons:bulb,
-        text:"Light & Switch"
+        icons:lightSwitch,
+        text:"Other"
     },
     ,
     {
         cate:'bathroom',
-        icons:bulb,
+        icons:bxsdoor,
         text:"Tap sink"
     },
     ,
     {
         cate:'bathroom',
-        icons:access,
+        icons:mirror,
         text:"XYZ"
     },
     {
         cate:'bathroom',
-        icons:bulb,
+        icons:others,
         text:"Light & Switch"
     },
     ,
     {
         cate:'alarm',
-        icons:bulb,
+        icons:alarm1,
         text:"Light & Switch"
     },
     ,
     {
         cate:'alarm',
-        icons:bulb,
+        icons:alarm2,
         text:"Tap sink"
     },
     ,
     {
         cate:'alarm',
-        icons:access,
+        icons:alarm3,
         text:"XYZ"
     },
     {
         cate:'alarm',
-        icons:bulb,
+        icons:others,
         text:"Light & Switch"
     } ,
     {
         cate:'lostKey',
-        icons:access,
+        icons:lostkey1,
         text:"XYZ"
     },
     {
         cate:'lostKey',
-        icons:bulb,
+        icons:lostkey2,
         text:"Light & Switch"
     },
     ,
     {
         cate:'lostKey',
-        icons:bulb,
+        icons:lostkey3,
         text:"Light & Switch"
     },
     ,
     {
         cate:'lostKey',
-        icons:bulb,
+        icons:lostkey4,
         text:"Tap sink"
     },
     ,
     {
         cate:'lostKey',
-        icons:access,
+        icons:lostkey5,
         text:"XYZ"
     },
     {
         cate:'lostKey',
-        icons:bulb,
+        icons:others,
         text:"Light & Switch"
     }
     ,
     {
         cate:'garden',
-        icons:bulb,
+        icons:garden1,
         text:"Light & Switch"
     } ,
     {
         cate:'garden',
-        icons:access,
+        icons:garden2,
         text:"XYZ"
     },
     {
         cate:'garden',
-        icons:bulb,
+        icons:garden3,
         text:"Light & Switch"
     },
     ,
     {
         cate:'garden',
-        icons:bulb,
+        icons:garden13,
         text:"Light & Switch"
     },
     ,
     {
         cate:'garden',
-        icons:bulb,
+        icons:garden4,
         text:"Tap sink"
     },
     ,
     {
         cate:'garden',
-        icons:access,
+        icons:garden5,
         text:"XYZ"
     },
     {
         cate:'garden',
-        icons:bulb,
+        icons:others,
         text:"Light & Switch"
     } ,
     {
         cate:'pest',
-        icons:bulb,
+        icons:pest1,
         text:"Tap sink"
     },
     ,
     {
         cate:'pest',
-        icons:access,
+        icons:pest2,
         text:"XYZ"
     },
     {
         cate:'pest',
-        icons:bulb,
+        icons:others,
         text:"Light & Switch"
     },
     {
         cate:'wall',
-        icons:bulb,
+        icons:wall1,
         text:"Tap sink"
     },
     ,
     {
         cate:'wall',
-        icons:access,
+        icons:wall2,
         text:"XYZ"
     },
     {
         cate:'wall',
-        icons:bulb,
+        icons:wall3,
         text:"Light & Switch"
     }
     ,
     {
         cate:'hall',
-        icons:bulb,
+        icons:enterance1,
         text:"Tap sink"
     },
     ,
     {
         cate:'hall',
-        icons:access,
+        icons:enterance2,
         text:"XYZ"
     },
     {
         cate:'hall',
-        icons:bulb,
+        icons:enterance3,
         text:"Light & Switch"
     },
     {
         cate:'hall',
-        icons:access,
+        icons:others,
         text:"XYZ"
     }
     ,
     {
         cate:'window',
-        icons:access,
+        icons:window1,
         text:"XYZ"
     },
     {
         cate:'window',
-        icons:bulb,
+        icons:window2,
         text:"Light & Switch"
     },
     {
         cate:'window',
-        icons:access,
+        icons:others,
         text:"XYZ"
     }
 

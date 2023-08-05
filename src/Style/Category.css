@@ -1,0 +1,3 @@
+.blue-filter {
+    filter: hue-rotate(240deg); /* Adjust the hue value to change the blue shade */
+  }
