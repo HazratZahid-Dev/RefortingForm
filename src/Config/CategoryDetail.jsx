@@ -127,6 +127,8 @@ const CategoriesData=[
     
     {
         cate:'waterLeak',
+        heading:"Water Leacking",
+        effect:"Leacking Condition",
         icons:dripping,
         text:"Dripping"
     },
@@ -146,16 +148,22 @@ const CategoriesData=[
         text:"Dripping"
     },
     {
+        heading:"No Heating",
         cate:'heat',
         icons:access,
         text:"Sudden Intermittent Bursts"
     },
     {
+        
         cate:'heat',
         icons:bulb,
         text:"Gurshing"
     },
     {
+        // heading:"No Heating",
+        heading:"Kitchen",
+        effect:"Category",
+
         cate:'kitchen',
         icons:whiteGood,
         text:"White Goods"
@@ -187,6 +195,8 @@ const CategoriesData=[
         text:"Others"
     },
     {
+        heading:"White Goods",
+        effect:"Category",
         cate:'whiteGoods',
         icons:Group,
         text:"Dripping"

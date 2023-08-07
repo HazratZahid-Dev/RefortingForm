@@ -132,25 +132,37 @@ const Categories = () => {
         )}
         {!show && (
           <>
-            {CategoriesData.filter((item) => item.cate === activeCategory).map((item, index) => (
+         <div className='flex flex-col space-y-3 '>
+         {CategoriesData.filter((item) => item.cate === activeCategory).map((item, index) => (
+              
               <div
+
                 key={index}
-                className="border w-36 h-36 bg-green-100 flex py-2 items-center justify-center shadow-sm rounded-xl"
               >
-                <div className="flex flex-col gap-y-3 justify-center items-center">
-                  <div className="w-16 flex items-center justify-center h-16 flex-wrap bg-white rounded-full">
-                    <img
-                      src={item.icons}
-                      alt="item"
-                      className="object-fill blue-filter m-auto w-10 h-10"
-                    />
-                  </div>
-                  <p className="text-[#737475] text-center font-semibold font-[Roboto] text-sm">
-                    {item.text}
-                  </p>
+                <div className='w-80  '>
+                <h1 className='text-3xl  font-bold text-[#2a8b4c]'>
+                {item.heading}
+                </h1>
+                <p className='text-xl  mt-4 font-semibold text-[#737475]'>{item.effect}</p>
+            
+                 
+                  
                 </div>
               </div>
             ))}
+           <div className='flex  px-6  flex-wrap space-y-2  w-[1200px] gap-x-4'>
+           {CategoriesData.filter((item) => item.cate === activeCategory).map((item, index) => (
+              <div>
+                <div className='w-36 h-36 flex space-y-2 bg-green-100 items-center justify-center flex-col border rounded-xl'>
+                <div className='w-16 h-16 bg-white rounded-full flex items-center justify-center '>
+                <img src={item.icons} className='w-10 h-10'></img>
+                </div>
+                  <p className='text-center'>{item.text}</p>
+                </div>
+              </div>
+            ))}
+           </div>
+         </div>
           </>
         )}
       </div>
