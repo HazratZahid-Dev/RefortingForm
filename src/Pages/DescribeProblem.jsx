@@ -140,7 +140,7 @@ const Categories = () => {
                 key={index}
               >
                 <div className='w-80  '>
-              {item.heading &&  <h1 className='text-3xl  font-bold text-[#2a8b4c] border '>
+              {item.heading &&  <h1 className='text-3xl  font-bold text-[#2a8b4c]  '>
                 {item.heading}
                 </h1>}
               { item.effect &&  <p className='text-xl  mt-4 font-semibold text-[#737475]  border '>{item.effect}</p>}
