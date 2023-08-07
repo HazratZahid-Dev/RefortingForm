@@ -140,10 +140,10 @@ const Categories = () => {
                 key={index}
               >
                 <div className='w-80  '>
-                <h1 className='text-3xl  font-bold text-[#2a8b4c]'>
+              {item.heading &&  <h1 className='text-3xl  font-bold text-[#2a8b4c] border border-red-300'>
                 {item.heading}
-                </h1>
-                <p className='text-xl  mt-4 font-semibold text-[#737475]'>{item.effect}</p>
+                </h1>}
+              { item.effect &&  <p className='text-xl  mt-4 font-semibold text-[#737475]  border border-red-300'>{item.effect}</p>}
             
                  
                   
