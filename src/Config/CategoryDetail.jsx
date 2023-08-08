@@ -54,52 +54,7 @@ import enterance2 from '../images/ENTERENCE-stairs/Group 2335.png'
 import enterance3 from '../images/ENTERENCE-stairs/Group 2337.png'
 import window1 from '../images/window/window-1.png'
 import window2 from '../images/window/Group 2341.png'
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// import washing from '../images/washing-machine-1.png'
-// import washing from '../images/washing-machine-1.png'
-// import washing from '../images/washing-machine-1.png'
-// import washing from '../images/washing-machine-1.png'
-// import washing from '../images/washing-machine-1.png'
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 import ass from '../images/chair.png'
-
-
-
-
-
-
 
 
 

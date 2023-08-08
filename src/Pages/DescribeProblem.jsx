@@ -164,6 +164,25 @@ const Categories = () => {
 
             ))}
            </div>
+            <div className='flex items-center  gap-x-5   flex-wrap -translate-y-5    w-[1120px]'>
+           {CategoriesData.filter((item) => item.cate === activeCategory).map((item, index) => (
+
+              <div className='my-5'>
+                <div className='w-36 h-36 flex space-y-2 bg-green-100 items-center justify-center flex-col  rounded-xl'>
+                <div className='w-16 h-16 bg-white rounded-full flex items-center justify-center '>
+            {
+              item.img  &&   <img src={item.img} className='w-10 h-10'></img>
+            }
+                </div>
+                  {
+                    item.main && <p className='text-center'>{item.main}</p>
+                  }
+                </div>
+              </div>
+
+            ))}
+           </div>
+           
          </div>
           </>
         )}
