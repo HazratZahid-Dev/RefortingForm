@@ -132,7 +132,7 @@ const Categories = () => {
         )}
         {!show && (
           <>
-         <div className='flex flex-col space-y-3 '>
+         <div className='flex flex-col space-y-3  '>
          {CategoriesData.filter((item) => item.cate === activeCategory).map((item, index) => (
               
               <div
@@ -140,26 +140,28 @@ const Categories = () => {
                 key={index}
               >
                 <div className='w-80  '>
-              {item.heading &&  <h1 className='text-3xl  font-bold text-[#2a8b4c]  '>
+              {item.heading &&  <h1 className='text-3xl w-96  font-bold text-[#2a8b4c]  '>
                 {item.heading}
                 </h1>}
-              { item.effect &&  <p className='text-xl  mt-4 font-semibold text-[#737475]  border '>{item.effect}</p>}
+              { item.effect &&  <p className='text-xl   font-semibold text-[#737475]   '>{item.effect}</p>}
             
                  
                   
                 </div>
               </div>
             ))}
-           <div className='flex  px-6  flex-wrap space-y-2  w-[1200px] gap-x-4'>
+           <div className='flex items-center  gap-x-5   flex-wrap -translate-y-5    w-[1120px]'>
            {CategoriesData.filter((item) => item.cate === activeCategory).map((item, index) => (
-              <div>
-                <div className='w-36 h-36 flex space-y-2 bg-green-100 items-center justify-center flex-col border rounded-xl'>
+
+              <div className='my-5'>
+                <div className='w-36 h-36 flex space-y-2 bg-green-100 items-center justify-center flex-col  rounded-xl'>
                 <div className='w-16 h-16 bg-white rounded-full flex items-center justify-center '>
                 <img src={item.icons} className='w-10 h-10'></img>
                 </div>
                   <p className='text-center'>{item.text}</p>
                 </div>
               </div>
+
             ))}
            </div>
          </div>

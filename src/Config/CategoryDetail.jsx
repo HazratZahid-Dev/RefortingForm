@@ -142,23 +142,9 @@ const CategoriesData=[
         icons:ghushing,
         text:"Gurshing"
     },
-    {
-        cate:'heat',
-        icons:img,
-        text:"Dripping"
-    },
-    {
-        heading:"No Heating",
-        cate:'heat',
-        icons:access,
-        text:"Sudden Intermittent Bursts"
-    },
-    {
-        
-        cate:'heat',
-        icons:bulb,
-        text:"Gurshing"
-    },
+   
+    
+   
     {
         // heading:"No Heating",
         heading:"Kitchen",
@@ -239,6 +225,8 @@ const CategoriesData=[
     },
     ,
     {
+        heading:"Garage",
+        effect:"Category",
         cate:'garag',
         icons:door,
         text:"Garag Door"
@@ -256,11 +244,14 @@ const CategoriesData=[
     },
     ,
     {
+        heading:"White Goods",
+        effect:"Category",
         cate:'bathroom',
         icons:toilet,
         text:"Gurshing"
     },
     {
+        
         cate:'bathroom',
         icons:shower,
         text:"White Goods"
@@ -311,6 +302,8 @@ const CategoriesData=[
     },
     ,
     {
+        heading:"Alarm",
+        effect:"Category",
         cate:'alarm',
         icons:alarm2,
         text:"Tap sink"
@@ -332,6 +325,8 @@ const CategoriesData=[
         text:"XYZ"
     },
     {
+        heading:"Lost Keys",
+        effect:"Category",
         cate:'lostKey',
         icons:lostkey2,
         text:"Light & Switch"
@@ -361,6 +356,8 @@ const CategoriesData=[
     }
     ,
     {
+        heading:"Garden/Conservatory",
+        effect:"Category",
         cate:'garden',
         icons:garden1,
         text:"Light & Switch"
@@ -399,6 +396,8 @@ const CategoriesData=[
         text:"Light & Switch"
     } ,
     {
+        heading:"Pest Control",
+        effect:"Category",
         cate:'pest',
         icons:pest1,
         text:"Tap sink"
@@ -415,12 +414,15 @@ const CategoriesData=[
         text:"Light & Switch"
     },
     {
+        heading:"Wall/Ceiling/Control",
+        effect:"Category",
         cate:'wall',
         icons:wall1,
         text:"Tap sink"
     },
     ,
     {
+      
         cate:'wall',
         icons:wall2,
         text:"XYZ"
@@ -432,6 +434,8 @@ const CategoriesData=[
     }
     ,
     {
+        heading:"Entrance/Hallway/Stairs",
+        effect:"Category",
         cate:'hall',
         icons:enterance1,
         text:"Tap sink"
@@ -454,6 +458,8 @@ const CategoriesData=[
     }
     ,
     {
+        heading:"Window",
+        effect:"Category",
         cate:'window',
         icons:window1,
         text:"XYZ"
