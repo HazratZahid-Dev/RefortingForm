@@ -135,7 +135,9 @@ const Categories = () => {
          <div className='flex flex-col space-y-3  '>
          {CategoriesData.filter((item) => item.cate === activeCategory).map((item, index) => (
               
-              <div
+             <>
+            
+               <div
 
                 key={index}
               >
@@ -149,11 +151,16 @@ const Categories = () => {
                   
                 </div>
               </div>
+              
+             </>
             ))}
-           <div className='flex items-center  gap-x-5   flex-wrap -translate-y-5    w-[1120px]'>
+           <div className='flex items-center  gap-x-5   flex-wrap     w-[1120px]'>
            {CategoriesData.filter((item) => item.cate === activeCategory).map((item, index) => (
-
-              <div className='my-5'>
+            <> 
+            {
+              item?.icons &&
+       
+              <div className=''>
                 <div className='w-36 h-36 flex space-y-2 bg-green-100 items-center justify-center flex-col  rounded-xl'>
                 <div className='w-16 h-16 bg-white rounded-full flex items-center justify-center '>
                 <img src={item.icons} className='w-10 h-10'></img>
@@ -161,13 +168,21 @@ const Categories = () => {
                   <p className='text-center'>{item.text}</p>
                 </div>
               </div>
+           
+            }
+            </>
 
             ))}
+           </div>
+           <div>
+            <h2 className='text-xl text-[#727374] font-semibold'>Reason</h2>
            </div>
             <div className='flex items-center  gap-x-5   flex-wrap -translate-y-5    w-[1120px]'>
            {CategoriesData.filter((item) => item.cate === activeCategory).map((item, index) => (
 
-              <div className='my-5'>
+           <>
+           { item.img &&
+               <div className='my-5'>
                 <div className='w-36 h-36 flex space-y-2 bg-green-100 items-center justify-center flex-col  rounded-xl'>
                 <div className='w-16 h-16 bg-white rounded-full flex items-center justify-center '>
             {
@@ -179,9 +194,14 @@ const Categories = () => {
                   }
                 </div>
               </div>
+              }
+           </>
 
             ))}
            </div>
+           <>
+
+           </>
            
          </div>
           </>

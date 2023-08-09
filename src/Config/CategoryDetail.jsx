@@ -11,7 +11,7 @@ import cooker from '../images/cooker.png'
 import  Sink from '../images/Tap- Sink.png'
 import Drawers from '../images/Cabinets- Drawers.png'
 import Switch from '../images/Light & Switch-1.png'
-import others from '../images/others.png'
+import others from '../images/other (2).png'
 import Group from '../images/Group 2285.png'
 import kitchencooker from '../images/kitchen-cooker.png'
 
@@ -55,6 +55,29 @@ import enterance3 from '../images/ENTERENCE-stairs/Group 2337.png'
 import window1 from '../images/window/window-1.png'
 import window2 from '../images/window/Group 2341.png'
 import ass from '../images/chair.png'
+import awater1 from '../images/water leak/Running Water.png'
+import awater2 from '../images/water leak/Running Water.png'
+import awater3 from '../images/water leak/Water Leak.png'
+import awater4 from '../images/water leak/Over flowing tap.png'
+import awater5 from '../images/water leak/Behind Sink.png'
+import awater6 from '../images/water leak/Group 4645.png'
+import awater7 from '../images/water leak/Radiator  Ceiling.png'
+import awater8 from '../images/water leak/Radiator  Ceiling.png'
+
+
+import kitchen1 from '../images/kitchen/whitegoods/Group 1809.png'
+import kitchen2 from '../images/kitchen/whitegoods/kitchen-cooker.png'
+import kitchen3 from '../images/kitchen/whitegoods/bxs-fridge.png'
+import kitchen4 from '../images/kitchen/whitegoods/Group 2286.png'
+import kitchen5 from '../images/kitchen/whitegoods/washing-machine-1.png'
+import kitchen6 from '../images/kitchen/whitegoods/bxs-dryer.png'
+import kitchen7 from '../images/kitchen/whitegoods/microwave.png'
+
+
+
+
+
+
 
 
 
@@ -70,32 +93,67 @@ const CategoriesData=[
         icons:loginhomr,
         text:'Entire Property',
         img:ass,
-        main:"Main Switch Trapped"
+        main:"Main Switch Trapped",
+        Reason:"Reason"
     },
     {
         cate:'electricity',
         icons:entire,
         text:'Part Of Property',
         img:ass,
-        main:"Main Switch Trapped"
+        main:"Associated Switch\Circuit"
     },
+    {
+        cate:'electricity',
+        img:ass,
+        main:"Associated Switch\Circuit"
+    }
+    ,
     
     {
         cate:'waterLeak',
+        img:awater2,
+        main:"Runing Water Bowl",
         heading:"Water Leacking",
         effect:"Leacking Condition",
         icons:dripping,
-        text:"Dripping"
+        text:"Dripping",
+     
     },
     {
         cate:'waterLeak',
+        img:awater3,
+        main:"Runing Water Bowl",
         icons:sudden,
         text:"Sudden Intermittent Bursts"
     },
     {
         cate:'waterLeak',
+        img:awater4,
+        main:"Over flowing tap ",
         icons:ghushing,
         text:"Gurshing"
+    },
+    
+    {
+        cate:'waterLeak',
+        img:awater5,
+        main:"Behind the Sink ",
+    },
+    {
+        cate:'waterLeak',
+        img:awater6,
+        main:"Under the Kitchen ",
+    },
+    {
+        cate:'waterLeak',
+        img:awater7,
+        main:"Rediater Ceiling ",
+    },
+    {
+        cate:'waterLeak',
+        img:awater8,
+        main:"Washing Machin ",
     },
    
     
@@ -107,33 +165,52 @@ const CategoriesData=[
 
         cate:'kitchen',
         icons:whiteGood,
-        text:"White Goods"
+        text:"White Goods",
+        img:kitchen1,
+        main:"Hob Stove ",
     },
     {
         cate:'kitchen',
         icons:cooker,
-        text:" Cooker Head"
+        text:" Cooker Head",
+        img:kitchen2,
+        main:"Hob Stove ",
     },
     {
         cate:'kitchen',
         icons:Sink,
-        text:"Tap sink"
+        text:"Tap sink",
+        img:kitchen3,
+        main:"Hob Stove ",
     },
     ,
     {
         cate:'kitchen',
         icons:Drawers,
-        text:"XYZ"
+        text:"XYZ",
+        img:kitchen4,
+        main:"Hob Stove ",
     },
     {
         cate:'kitchen',
         icons:Switch,
-        text:"Light & Switch"
+        text:"Light & Switch",
+        img:kitchen5,
+        main:"Hob Stove ",
     },
     {
         cate:'kitchen',
         icons:others,
-        text:"Others"
+        text:"Others",
+        img:kitchen6,
+        main:"Hob Stove ",
+    },
+    
+    {
+        cate:'kitchen',
+      
+        img:kitchen7,
+        main:"Microwave ",
     },
     {
         heading:"White Goods",
