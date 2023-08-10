@@ -97,13 +97,13 @@ const Categories = () => {
 
   return (
     <div className='border rounded-xl shadow-sm w-[90%] mt-4 p-4 m-auto'>
-      <div className="grid grid-cols-1 sm:grid-cols-4 lg:grid-cols-8 py-4 gap-4">
+      <div className="grid grid-cols-1  sm:grid-cols-4 lg:grid-cols-8 py-4 gap-4 ">
         {show && (
           <>
             {LoginData.map((item, index) => (
               <div
                 key={index}
-                className={`border w-32 h-32 flex py-2 items-center justify-center shadow-sm rounded-xl ${
+                className={`border w-32 h-32 flex  py-2 items-center justify-center shadow-sm rounded-xl ${
                   activeCategory === item.cate
                     ? 'bg-green-200 border-2 border-green-600'
                     : 'hover:bg-green-200 hover:border-2 hover:border-green-600'
@@ -132,7 +132,7 @@ const Categories = () => {
         )}
         {!show && (
           <>
-         <div className='flex flex-col space-y-3  '>
+         <div className='flex flex-col space-y-[2px]   '>
          {CategoriesData.filter((item) => item.cate === activeCategory).map((item, index) => (
               
              <>
@@ -154,7 +154,7 @@ const Categories = () => {
               
              </>
             ))}
-           <div className='flex items-center  gap-x-5   flex-wrap     w-[1120px]'>
+           <div className='flex items-center  gap-5   flex-wrap     w-[1120px]'>
            {CategoriesData.filter((item) => item.cate === activeCategory).map((item, index) => (
             <> 
             {

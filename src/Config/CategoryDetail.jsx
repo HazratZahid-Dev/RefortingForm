@@ -72,7 +72,15 @@ import kitchen4 from '../images/kitchen/whitegoods/Group 2286.png'
 import kitchen5 from '../images/kitchen/whitegoods/washing-machine-1.png'
 import kitchen6 from '../images/kitchen/whitegoods/bxs-dryer.png'
 import kitchen7 from '../images/kitchen/whitegoods/microwave.png'
+import bath1 from '../images/bathroom/Group 2301.png'
+import bath2 from '../images/bathroom/shower-1.png'
+import bath3 from '../images/bathroom/Group 2308.png'
+import bath4 from '../images/bathroom/Group 2303.png'
+import bath5 from '../images/bathroom/Group 2305.png'
+import bath6 from '../images/bathroom/Group 2304.png'
 
+import alarm12 from '../images/alarm/Group 2314.png'
+import alarm13 from '../images/bbb.png'
 
 
 
@@ -276,44 +284,63 @@ const CategoriesData=[
     },
     ,
     {
-        heading:"White Goods",
+        heading:"Bathroom",
         effect:"Category",
         cate:'bathroom',
         icons:toilet,
-        text:"Gurshing"
+        text:"Gurshing",
+        img:bath2,
+        main:"shower head ",
+      
     },
     {
         
         cate:'bathroom',
         icons:shower,
-        text:"White Goods"
+     
+        text:"White Goods",
+        cate:'kitchen',     
+        img:kitchen7,
+        main:"Microwave ",
+        img:bath1,
+        main:"shower",
     },
     {
         cate:'bathroom',
         icons:basin,
-        text:" Cooker Head"
+        text:" Cooker Head",
+        img:bath3,
+        main:"shower head ",
     },
     {
         cate:'bathroom',
         icons:tab,
-        text:"Tap sink"
+        text:"Tap sink",
+        img:bath4,
+        main:"shower head ",
     },
     ,
     {
         cate:'bathroom',
         icons:exaust,
-        text:"XYZ"
+        text:"XYZ",
+        img:bath5,
+        main:"shower head ",
     },
     {
         cate:'bathroom',
         icons:lightSwitch,
-        text:"Other"
+        text:"Other",
+        img:bath6,
+        main:"shower head ",
     },
     ,
     {
         cate:'bathroom',
         icons:bxsdoor,
-        text:"Tap sink"
+        text:"Tap sink",
+        img:others,
+        main:"Other",
     },
     ,
     {
@@ -330,7 +357,9 @@ const CategoriesData=[
     {
         cate:'alarm',
         icons:alarm1,
-        text:"Light & Switch"
+        text:"Light & Switch",
+        img:alarm12,
+        main:"shower head ",
     },
     ,
     {
@@ -338,13 +367,17 @@ const CategoriesData=[
         effect:"Category",
         cate:'alarm',
         icons:alarm2,
-        text:"Tap sink"
+        text:"Tap sink",
+        img:alarm13,
+        main:"shower head ",
     },
     ,
     {
         cate:'alarm',
         icons:alarm3,
-        text:"XYZ"
+        text:"XYZ",
+        img:others,
+        main:"Light & Switch"
     },
     {
         cate:'alarm',
