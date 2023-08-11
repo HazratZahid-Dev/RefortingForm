@@ -115,6 +115,17 @@ const CategoriesData=[
         cate:'electricity',
         img:ass,
         main:"Associated Switch\Circuit"
+    },
+
+    {
+        cate:"heat",
+        msg:"Message",
+        heatOne:"Ensure Boiler is on",
+        heatTwo:"Check if there is ant timer on",
+        heatThree:"Make sure Temprature on thermostate set to above 21 C",
+        heatFour:"Check Pressure",
+        cont:"Continue to Reporting"
+
     }
     ,
     
@@ -473,29 +484,48 @@ const CategoriesData=[
         icons:pest2,
         text:"XYZ"
     },
+ 
+    
     {
         cate:'pest',
         icons:others,
         text:"Light & Switch"
     },
     {
+        cate:"pest",
+        msge:"Message",
+        heatOne:"Immediately call National Gas Emergency Services on",
+        heatTwo:" 0800111999",
+        heatThree:"before proceeding further.",
+        heatFour:"Have a Call",
+        cont:"No"
+
+    },
+    {
         heading:"Wall/Ceiling/Control",
         effect:"Category",
         cate:'wall',
         icons:wall1,
-        text:"Tap sink"
+        text:"Tap sink",
+        img:wall1,
+        main:"Darp"
+
     },
     ,
     {
       
         cate:'wall',
         icons:wall2,
-        text:"XYZ"
+        text:"XYZ",
+        img:wall1,
+        main:"Mould"
     },
     {
         cate:'wall',
         icons:wall3,
-        text:"Light & Switch"
+        text:"Light & Switch",
+        img:others,
+        main:"Others"
     }
     ,
     {
